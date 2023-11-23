@@ -15,6 +15,7 @@
 
 body{
     background-color: black;
+    /* width: 100%; */
 }
 
 .main{
@@ -39,7 +40,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 75vw;
+    max-width: 80vw;
     margin: auto;
     height: 80px;
 }
@@ -322,36 +323,37 @@ nav button{
     cursor: pointer;
 }
 
-@media screen and (max-width: 700px) {
-    body{
-        width: 180vw;
-    }
-    .main{
+@media screen and (max-width: 750px) {
+     /* body{
+        width: 120%;
+    } */
+    /* .main{
         height: 90vh;
+        width: 506px;
     }
     .main .shadow-box{
         height: 90vh;
-    }
-    nav{
-        max-width: 140vw;
-    }
+    } */
+    /* nav{
+        max-width: 110vw;
+    } */
     .heading-1 h1{
-        font-size: 22px;
+        font-size: 33px;
     }
     .heading-1> :nth-child(2){
-        font-size: 16px;
+        font-size: 21px;
     }
     .heading-1> :nth-child(3){
-        font-size: 13px;
+        font-size: 17px;
     }
     .heading-buttons{
         flex-direction: column;
     }
     .first, .second, .fourth{
-        height: 105vh;
+        height: 76vh;
     }
     .third{
-        height: 50vh;
+        height: 25vh;
     }
     .first-box, .second-box, .third-box, .fourth-box{
         flex-wrap: wrap;
@@ -362,22 +364,22 @@ nav button{
         align-content: center;
     }
     .first-box h2, .second-box h2, .third-box h2, .fourth-box h2{
-        font-size: 25px;
+        font-size: 31px;
     }
     .first-box p, .second-box p, .third-box p, .fourth-box p{
         font-size: 15px;
     }
     .faq h2{
-        font-size: 23px;
+        font-size: 33px;
     }
     .faq-box{
-        font-size: 13px;
-    }
-    .faq-box i{
         font-size: 16px;
     }
+    .faq-box i{
+        font-size: 21px;
+    }
     .faq-bottom h4{
-        font-size: 14px;
+        font-size: 15px;
     }
     .footer-wrapper{
         grid-template-columns: 1fr 1fr;
@@ -387,5 +389,5 @@ nav button{
         height: 45vh;
     }
 }
-
+ */
 
