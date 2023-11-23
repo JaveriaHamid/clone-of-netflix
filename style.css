@@ -327,10 +327,10 @@ nav button{
         width: 175vw;
     }
     .main{
-        height: 80vh;
+        height: 90vh;
     }
     .main .shadow-box{
-        height: 80vh;
+        height: 90vh;
     }
     nav{
         max-width: 140vw;
@@ -348,7 +348,7 @@ nav button{
         flex-direction: column;
     }
     .first, .second, .fourth{
-        height: 93vh;
+        height: 100vh;
     }
     .third{
         height: 42vh;
