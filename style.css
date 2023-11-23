@@ -322,15 +322,21 @@ nav button{
     cursor: pointer;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 700px) {
+    body{
+        width: 175vw;
+    }
+    nav{
+        max-width: 135vw;
+    }
     .heading-1 h1{
-        font-size: 27px;
+        font-size: 19px;
     }
     .heading-1> :nth-child(2){
-        font-size: 17px;
+        font-size: 15px;
     }
     .heading-1> :nth-child(3){
-        font-size: 15px;
+        font-size: 10px;
     }
     .heading-buttons{
         flex-direction: column;
@@ -353,16 +359,22 @@ nav button{
         align-content: center;
     }
     .first-box h2, .second-box h2, .third-box h2, .fourth-box h2{
-        font-size: 30px;
+        font-size: 23px;
     }
     .first-box p, .second-box p, .third-box p, .fourth-box p{
-        font-size: 16px;
+        font-size: 12px;
     }
     .faq h2{
-        font-size: 30px;
+        font-size: 22px;
+    }
+    .faq-box{
+        font-size: 12px;
+    }
+    .faq-box i{
+        font-size: 14px;
     }
     .faq-bottom h4{
-        font-size: 13px;
+        font-size: 10px;
     }
     .footer-wrapper{
         grid-template-columns: 1fr 1fr;
