@@ -324,7 +324,7 @@ nav button{
 
 @media screen and (max-width: 700px) {
     body{
-        width: 175vw;
+        width: 180vw;
     }
     .main{
         height: 90vh;
@@ -351,7 +351,7 @@ nav button{
         height: 100vh;
     }
     .third{
-        height: 42vh;
+        height: 50vh;
     }
     .first-box, .second-box, .third-box, .fourth-box{
         flex-wrap: wrap;
