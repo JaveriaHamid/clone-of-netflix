@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@400;500;800;900&family=Roboto:wght@300;400;700&family=Ubuntu&display=swap');
+
+:root{
+    --robotofam: 'Roboto', sans-serif;
+    --martelfam: 'Martel Sans', sans-serif;
+    --poppinsfam: 'Poppins', sans-serif;
+    --ubuntufam: 'Ubuntu', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--poppinsfam);
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url("assets/images/bg.jpg");
+    background-position-x: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 70vh;
+    position: relative;
+}
+
+.main .shadow-box{
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 75vw;
+    margin: auto;
+    height: 80px;
+}
+
+nav img{
+    color: rgb(208, 18, 18);
+    width: 139px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.heading-1{
+    height: calc(100% - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    z-index: 10;
+    padding: 0 30px;
+    gap: 19px;
+}
+
+.heading-1 h1{
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+}
+
+.heading-1> :nth-child(2){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.heading-1> :nth-child(3){
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+}
+
+.separation{
+    height: 7px;
+    background-color: rgb(52, 50, 50);
+}
+
+.btn{
+    cursor: pointer;
+}
+
+.btn-red-sm{
+    padding: 7px 14px;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: rgb(233, 12, 12);
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+
+.heading-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.main input, .faq input{
+    padding: 15px 150px 15px 13px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 3px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid gray;
+}
+
+.main input::placeholder, 
+.faq input::placeholder{
+    color: rgb(167, 163, 163)
+}
+
+.btn-red{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: rgb(233, 12, 12);
+    color: white;
+    padding: 11px 24px;
+    font-size: 19px;
+    font-weight: 600;
+    border-radius: 4px;
+    border: none;
+}
+
+.btn-red-sm:hover,
+.btn-red:hover{
+    background-color: rgb(218, 1, 26);
+}
+
+.first, .second, .fourth{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    width: 100%;
+    height: 70vh;
+}
+
+.first-box, .second-box, .third-box, .fourth-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+}
+
+.sec-img{
+    position: relative;
+}
+
+.sec-img img{
+    width: 530px;
+    position: relative;
+    z-index: 10;
+}
+
+.sec-img video{
+    position: absolute;
+    top: 82px;
+    right: 76px;
+    width: 384px;
+}
+
+.first-box h2, .second-box h2, .third-box h2, .fourth-box h2{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.first-box p, .second-box p, .third-box p, .fourth-box p{
+    margin-top: 14px;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.boxshot{
+    flex-direction: row;
+    align-items: center;
+    width: 20%;
+    border: 2px solid grey;
+    padding: 13px 5px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.st-thing{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: var(--robotofam);
+}
+
+.downloading{
+    font-family: var(--robotofam);
+    color: blue;
+    font-size: 12px;
+}
+
+.faq{
+    padding: 14px;
+    color: white;
+}
+
+.faq h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.faq-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(47, 47, 47);
+    max-width: 70vw;
+    margin: 10px auto;
+    padding: 20px;
+    font-family: var(--robotofam);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.faq-box i{
+    font-size: 37px;
+    font-family: auto;
+}
+
+.faq-box:hover{
+    background-color: rgb(64, 62, 62);
+}
+
+.faq-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.faq-bottom h4{
+    margin-top: 32px;
+    margin-bottom: 12px;
+    font-weight: 100;
+    font-size: 17px;
+}
+
+.faq > .heading-buttons{
+    padding-bottom: 50px;
+}
+
+.footer{
+    max-width: 80vw;
+    height: 40vh;
+    margin: auto;
+    padding: 50px;
+}
+
+.footer a, .footer .ntf-pak{
+    color: rgb(172, 168, 168);
+}
+
+.footer .ntf-pak{
+    font-size: 13px;
+}
+
+.query{
+  padding-bottom: 20px;
+  font-size: 15px;
+}
+
+.footer-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.footer-item a{
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.ftr-div-btn button{
+    margin-top: 25px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    padding: 4px 14px;
+    color: white;
+    background-color: rgba(19, 18, 18, 0.932);
+    border: 1px solid rgb(103, 102, 102);
+    border-radius: 4px;
+    gap: 7px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+    .heading-1 h1{
+        font-size: 27px;
+    }
+    .heading-1> :nth-child(2){
+        font-size: 17px;
+    }
+    .heading-1> :nth-child(3){
+        font-size: 15px;
+    }
+    .heading-buttons{
+        flex-direction: column;
+    }
+    .first, .second, .fourth{
+        height: 85vh;
+    }
+    .third{
+        height: 50vh;
+    }
+    .third  .sec-img{
+        display: none;
+    }
+    .first-box, .second-box, .third-box, .fourth-box{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .second-box, .fourth-box{
+        flex-direction: column-reverse;
+        align-content: center;
+    }
+    .first-box h2, .second-box h2, .third-box h2, .fourth-box h2{
+        font-size: 30px;
+    }
+    .first-box p, .second-box p, .third-box p, .fourth-box p{
+        font-size: 16px;
+    }
+    .faq h2{
+        font-size: 30px;
+    }
+    .faq-bottom h4{
+        font-size: 13px;
+    }
+    .footer-wrapper{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
