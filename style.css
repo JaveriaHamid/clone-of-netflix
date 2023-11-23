@@ -348,7 +348,7 @@ nav button{
         flex-direction: column;
     }
     .first, .second, .fourth{
-        height: 100vh;
+        height: 105vh;
     }
     .third{
         height: 50vh;
