@@ -39,7 +39,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 92vw;
+    max-width: 75vw;
     margin: auto;
     height: 100px;
 }
@@ -356,7 +356,9 @@ nav button{
         width: 475px;
     }
     .sec-img video{
-        width: 475px;
+        width: 390px;
+        right: 44px;
+        top: 73px;
     }
     .first-box h2, .second-box h2, .third-box h2, .fourth-box h2{
         font-size: 30px;
@@ -385,13 +387,81 @@ nav button{
 }
 
 @media screen and (max-width: 620px){
-    nav img{
-        width: 110px;
-    }
     .heading-buttons {
         flex-direction: column;
     }
     .main input, .faq input {
-        width: 55vw;
+        padding: 20 35px 20px 20px;
+    }
+    .sec-img img{
+        width: 475px;
+    }
+    .third{
+        height: 19vh;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .main {
+        height: 515px;
+    }
+    .main .shadow-box {
+        height: 515px;
+    }
+    nav img{
+        width: 100px;
+    }
+    .heading-1 h1{
+        font-size: 20px;
+    }
+    .heading-1> :nth-child(2){
+        font-size: 14px;
+        font-weight: 100;
+    }
+    .heading-1> :nth-child(3){
+        font-size: 7px;
+        font-weight: 100;
+    }
+    .main input, .faq input {
+        padding: 7px 43px 13px 7px
+    }
+    .first, .fourth{
+        height: 55vh;
+    }
+    .second{
+        height: 63vh;
+    }
+    .first-box h2, .second-box h2, .third-box h2, .fourth-box h2{
+        font-size: 23px;
+    }
+    .first-box p, .second-box p, .third-box p, .fourth-box p{
+        font-size: 11px;
+    }
+    .sec-img img{
+        width: 300px;
+    }
+    .sec-img video{
+        width: 220px;
+        top: 50px;
+    }
+    .faq-box{
+        max-width: 60vw;
+        padding: 11px;
+        font-size: 13px;
+    }
+    .faq-box i {
+        font-size: 25px;
+    }
+    .faq h2{
+        font-size: 17px;
+    }
+    .faq-bottom h4{
+        font-size: 7px;
+    }
+    .footer{
+        height: 60vh;
+    }
+    .footer-wrapper{
+        grid-column-gap: 63px;
     }
 }
